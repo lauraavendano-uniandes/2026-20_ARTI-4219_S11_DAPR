@@ -5,7 +5,7 @@
 
 ### 1. El atributo `id`: ¿quién lo genera y para qué sirve?
 
-> _Tu respuesta aquí_
+> Cuando tu aplicación publica un mensaje a través del endpoint de Pub/Sub de Dapr en formato JSON simple, el *sidecar* de Dapr (`daprd`) envuelve automáticamente el contenido dentro de un sobre (*envelope*) CloudEvents v1.0 y genera un **UUID v4 único** para dicho evento
 
 ### 2. El atributo `source`: ¿qué valor tiene y de dónde lo toma Dapr?
 

@@ -84,7 +84,7 @@ kubectl get crds | grep dapr
 
 ## 1.4 Actividades TODO
 
-### TODO 1: Análisis del Plano de Control
+### 1: Análisis del Plano de Control
 
 **Objetivo:** Comprender qué hace cada componente del plano de control de Dapr antes de usarlo.
 
@@ -103,7 +103,7 @@ Responde en un archivo `01-arquitectura-sidecar/analisis-control-plane.md`:
 
 ---
 
-### TODO 2: Exploración de los CRDs de Dapr
+### 2: Exploración de los CRDs de Dapr
 
 **Objetivo:** Entender el modelo de extensibilidad de Dapr a través de Custom Resource Definitions.
 

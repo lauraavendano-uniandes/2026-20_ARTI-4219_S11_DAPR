@@ -95,7 +95,7 @@ order-pubsub   10s
 
 ## 2.4 Actividades TODO
 
-### TODO 1: Completar el `redisHost` con el DNS de Kubernetes
+### Completar el `redisHost` con el DNS de Kubernetes
 
 Abre el archivo `02-componentes-declarativos/pubsub-redis.yaml`.
 
@@ -115,7 +115,7 @@ kubectl get components.dapr.io -o yaml
 
 ---
 
-### TODO 2: Análisis de la Abstracción
+### 2: Análisis de la Abstracción
 
 En el archivo `02-componentes-declarativos/analisis-abstraccion.md`, responde:
 
