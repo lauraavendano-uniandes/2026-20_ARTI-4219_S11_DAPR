@@ -130,7 +130,7 @@ Deberías ver el sobre CloudEvents con sus atributos estructurales:
 
 ---
 
-## 3.7 Actividades TODO
+## 3.7 Actividades
 
 ### TODO 1: Análisis de trazabilidad (CloudEvents)
 

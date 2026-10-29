@@ -32,7 +32,7 @@ Dapr permite configurar un **TTL (Time-to-Live)** en el componente Pub/Sub. Los 
 - 📖 [Message TTL in Pub/Sub — Dapr docs](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-message-ttl/)
 - 📖 [Redis Pub/Sub Component metadata](https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-redis-pubsub/#spec-metadata-fields)
 
-### TODO 1: Configurar TTL en el componente
+### 1: Configurar TTL en el componente
 
 Abre el archivo `04-reto-gobernanza/pubsub-redis-challenge.yaml`.
 
@@ -91,7 +91,7 @@ Cada equipo recibe **el 100% de sus mensajes**.
 - 📖 [Namespaced components — Dapr docs](https://docs.dapr.io/operations/components/component-scopes/#namespaced-components)
 - 📖 [Redis Streams consumer group](https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-redis-pubsub/#spec-metadata-fields)
 
-### TODO 2: Configurar el Consumer Group con Namespace
+### 2: Configurar el Consumer Group con Namespace
 
 En el mismo archivo `04-reto-gobernanza/pubsub-redis-challenge.yaml`, agrega la entrada de metadata para el `consumerID` usando el marcador de namespace dinámico de Dapr.
 
